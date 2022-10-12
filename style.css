@@ -6,7 +6,11 @@
 }
 
 body {
-  background-color: #090e22;
+  background-image: url(./img/fundo_page.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +25,7 @@ body {
 .container {
   min-width: 400px;
   min-height: 400px;
-  background-color: #1d1333;
+  background-color: #413951;
   padding: 2rem;
 }
 
@@ -73,8 +77,18 @@ button {
   flex: 1;
 }
 
-button:hover {
+/*button:hover {
   opacity: 1;
+}*/
+
+#calc-btn:hover {
+  opacity: 1;
+  background-color: #731f1f;
+}
+
+#clear-btn:hover {
+  opacity: 1;
+  background-color: rgb(33, 27, 27);
 }
 
 #clear-btn {
